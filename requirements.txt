@@ -6,4 +6,4 @@ nltk
 numpy
 requests
 torch
-gunicorn
+Gunicorn
