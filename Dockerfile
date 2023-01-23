@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["gunicorn", "-b 0.0.0.0:80", "app:app"]
+CMD ["gunicorn", "-b 127.0.0.1:8000", "app:app"]
