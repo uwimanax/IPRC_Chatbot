@@ -1,6 +1,17 @@
 {
-  "intents": [
-      {
+    "intents": [
+        {
+            "tag": "Director_of_Level(3,4,5)",
+            "patterns": [
+              "who is the Director of Level 3,4,5 of IPRC KIGALI COMPUS?",
+              "what is the phone number of Director of Level 3,4,5 of IPRC KIGALI COMPUS?"
+            ],
+            "responses": [
+              "the Director of Level 3,4,5 of IPRC KIGALI COMPUS is GAHAMA SIBOMANA Francois.",
+              "phone number: 0788593952"
+            ]
+        },
+          {
         "tag": "CEO",
         "patterns": [
           "Who is the Principal of IPRC KIGALI COMPUS?"
@@ -9,7 +20,7 @@
           "The principal of IPRC KIGALI is Diogene MULINDAHABI "
         ]
       },
-      {
+       {
         "tag": "Deputy_RP_IPRC_Kigali",
         "patterns": [
           "Who is the Deputy Principal in charge of Academics and Training?"
@@ -18,6 +29,7 @@
           "the Deputy Principal in charge of Academics and Training is Dr. Alice IKUZWE"
         ]
       },
+      
       {
         "tag": "Director_of_Career_Development_and_Guidance_Unit",
         "patterns": [
@@ -65,392 +77,135 @@
           "phone number: +250788615809"
         ]
          },
-      {
-        "tag": "Director_of_Level(3,4,5)",
-        "patterns": [
-          "who is the Director of Level 3,4,5 of IPRC KIGALI COMPUS?",
-          "what is the phone number of Director of Level 3,4,5 of IPRC KIGALI COMPUS?"
-        ],
-        "responses": [
-          "the Director of Level 3,4,5 of IPRC KIGALI COMPUS is GAHAMA SIBOMANA Francois.",
-          "phone number: 0788593952"
-        ]
-      },
-      {
-        "tag": "Head_of_ICT_Department ",
-        "patterns": [
-          "who is the Head of ICT Department?",
-          "What is the phone number of Head of ICT Department?" 
-        ],
-        "responses": [
-          "Head of ICT Department is Sabushimike Donatien.",
-          " phone number of Head of ICT Department: 0788629214"
-        ]
-      },
-      {
-        "tag": "HOD_Mechanical_Eng. ",
-        "patterns": [
-          "who is the HOD Mechanical Eng.",
-          "what is phone number of HOD Mechanical Eng?"
-        ],
-        "responses": [
-          "HOD Mechanical Eng is HAVUGWEKONSILI Stanislas.",
-          "phone number:0730672475"
-        ]
-      },
-      {
-        "tag": "Head_of_General_Courses_Department",
-        "patterns": [
-          "who is the Head of  General Courses Department?",
-          "what is the phone number of the Head of  General Courses Department?"
-        ],
-        "responses": [
-          "Head of General Courses Department is Mukeshimana Claude"
-        ]
-      },
-      {
-        "tag": "HOD_Civil_Engineering",
-        "patterns": [
-          "who is the Head of Civil Engineering Department?",
-          "what is the phone number the Head of Civil Engineering Department?"
-        ],
-        "responses": [
-          "the Head of Civil Engineering Department is IYAKARE Jean de Dieu"
-        ]
-      },
-      
-      {
-        "tag": "Director_of_Library",
-        "patterns": [
-          "who is the Director of Library of IPRC KIGALI COMPUS?",
-          "give the phone number of Director of Library of IPRC KIGALI COMPUS?"
-        ],
-        "responses": [
-          "the Director of Library of IPRC KIGALI COMPUS is Mukarubayiza Benilde"
-        ]
-      },
-      
-      {
-        "tag": "Head_of_Creative_Arts_Department",
-        "patterns": [
-          "who is the Head of Creative Arts Department of IPRC KIGALI COMPUS?",
-          "What is the phone number of the head of Creative Arts Department at IPRC KIGALI COMPUS?"
-        ],
-        "responses": [
-          "Head of Creative Arts Department of IPRC KIGALI COMPUS is JAMBO Jean D'Amour",
-          "phone number of the head of Creative Arts Department at IPRC KIGALI COMPUS:0783241957."
-        ]
-      },
-      {
-        "tag": "Ag.HoD_Transport_and_Logistics",
-        "patterns": [
-          "who is the Ag.HoD Transport and Logistics of IPRC KIGALI COMPUS?",
-          "What is the phone number of the Ag.HoD Transport and Logistics of IPRC KIGALI COMPUS?"
-        ],
-        "responses": [
-          "the Ag.HoD Transport and Logistics is Samuel Makuza",
-          "the phone number of the Ag.HoD Transport and Logistics of IPRC KIGALI COMPUS:0788461015"
-        ]
-      },
-     
-      {
-        "tag": "VISION",
-        "patterns": [
-          "what is the VISION of IPRC KIGALI CAMPUS?"
-        ],
-        "responses": [
-          "The VISION RP IPRC Kigali aspires to be a leading world class institution in the provision  of  producing graduates capable of developing and implementing creative technical solutions to social and industrial needs of Rwanda, the region and International society. "
-        ]
-      }
-    ,
-     {
-        "tag": "MISSION",
-        "patterns": [
-          "what is the MISSION of IPRC KIGALI CAMPUS?"
-        ],
-        "responses": [
-          "To provide Technical and vocational training at all levels in order to empower students and enhance their opportunities for career advancement and success in a global economy. "
-        ]
-      }
-    ,
 
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye"
-      ],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Thank's a lot!"
-      ],
-      "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure"
-      ]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "IPRC_KIGALI_COMPUS_HOME",
-      "patterns": [
-        "Guide me to home?",
-        "Where do you get home?",
-        "What is the link to the home",
-        "How do you get home?",
-        "How does home works?",
-        "How can i get home?",
-        "Who is the home?",
-        "What is the home?",
-        "Show me home",
-        "How long did it take to have home",
-        "What is IPRC KIGALI COMPUS",
-        "How do i apply for home?",
-        "Who is in Charge of home?"
-      ],
-      "responses": [
-        "You can use this https://www.iprckigali.rp.ac.rw/"
-      ]
-    },
-    {
-      "tag": "schemes",
-      "patterns": [
-        "Guide me to schemes?",
-        "Where do you get schemes?",
-        "What is the link to the schemes?",
-        "How do you get schemes?",
-        "How does schemes works?",
-        "How can i get schemes?",
-        "Who is the schemes?",
-        "What is the schemes?",
-        "Show me schemes",
-        "How long did it take to have schemes",
-        "How do i apply for schemes?",
-        "Who is in Charge of schemes?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/#schemes for more information"
-      ]
-    },
-    
-    {
-      "tag": "management",
-      "patterns": [
-        "Guide me to management?",
-        "Where do you get management?",
-        "What is the link to the management?",
-        "How do you get management?",
-        "How does management works?",
-        "How can i get management?",
-        "Who is the management?",
-        "What is the management?",
-        "Show me management",
-        "How long did it take to have management",
-        "How do i apply for management?",
-        "Who is in Charge of management?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/1/about-us for more information"
-      ]
-    },
-    {
-      "tag": "about",
-      "patterns": [
-        "Guide me to about?",
-        "Where do you get about?",
-        "What is the link to the about?",
-        "How do you get about?",
-        "How does about works?",
-        "How can i get about?",
-        "Who is the about?",
-        "What is the about?",
-        "Show me about",
-        "How long did it take to have about",
-        "How do i apply for about?",
-        "Who is in Charge of about?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/1/about-us for more information"
-      ]
-    },
-   
-    {
-      "tag": "announcement",
-      "patterns": [
-        "Guide me to announcement?",
-        "Where do you get announcement?",
-        "What is the link to the announcement?",
-        "How do you get announcements?",
-        "How does announcement works?",
-        "How can i get announcement?",
-        "Who is the announcement?",
-        "What is the announcement?",
-        "Show me announcement",
-        "How long did it take to have announcement",
-        "How do i apply for announcement?",
-        "Who is in Charge of announcement?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/announcement for more information"
-      ]
-    },
-    
-    {
-      "tag": "Pension_SchemeRetire_with_dignitylearn_more",
-      "patterns": [
-        "Guide me to Pension SchemeRetire with dignitylearn more?",
-        "Where do you get Pension SchemeRetire with dignitylearn more?",
-        "What is the link to the Pension SchemeRetire with dignitylearn more?",
-        "How do you get Pension SchemeRetire with dignitylearn more?",
-        "How does Pension SchemeRetire with dignitylearn more works?",
-        "How can i get Pension SchemeRetire with dignitylearn more?",
-        "Who is the Pension SchemeRetire with dignitylearn more?",
-        "What is the Pension SchemeRetire with dignitylearn more?",
-        "Show me Pension SchemeRetire with dignitylearn more",
-        "How long did it take to have Pension SchemeRetire with dignitylearn more",
-        "How do i apply for Pension SchemeRetire with dignitylearn more?",
-        "Who is in Charge of Pension SchemeRetire with dignitylearn more?"
-      ],
-      "responses": [
-        "You can use this link https://www.rssb.rw/scheme/pension-scheme for more information"
-      ]
-    },
 
-    {
-      "tag": "IPRC_KIGALI_COMPUS_Clearance_Certificate",
-      "patterns": [
-        "Guide me to IPRC KIGALI COMPUS Clearance Certificate?",
-        "Where do you get IPRC KIGALI COMPUS Clearance Certificate?",
-        "What is the link to the IPRC KIGALI COMPUS Clearance Certificate?",
-        "How do you get IPRC KIGALI COMPUSClearance Certificate?",
-        "How does IPRC KIGALI COMPUS Clearance Certificate works?",
-        "How can i get IPRC KIGALI COMPUS Clearance Certificate?",
-        "Who is the IPRC KIGALI COMPUS Clearance Certificate?",
-        "What is the IPRC KIGALI COMPUS Clearance Certificate?",
-        "Show me IPRC KIGALI COMPUS Clearance Certificate",
-        "How long did it take to have IPRC KIGALI COMPUS Clearance Certificate",
-        "How do i apply for IPRC KIGALI COMPUS Clearance Certificate?",
-        "Who is in Charge of IPRC KIGALI COMPUS Clearance Certificate?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/ for more information"
-      ]
-    },
-    {
-      "tag": "Registration",
-      "patterns": [
-        "Guide me to register for academic year?",
-        "Where do you get register link?",
-        "What is the link to the register for acdemic year?",
-        "How do you get register ?",
-        "How does register for academic year?",
-        "How can i get link of to register for academic year?",
-        "Who is the register for academic year?",
-        "What is the register for academic year?",
-        "Show me register for academic year",
-        "How long did it take to have register for academic year",
-        "How do i register for register for academic year?",
-        "Who is in Charge of register for academic year?"
-      ],
-      "responses": [
-        "You can use this link https://www.iprckigali.rp.ac.rw/ for more information"
-      ]
-    },
-    {
-      "tag": "Pay_Employee_ Contributions",
-      "patterns": [
-        "Guide me to Pay Employee Contributions?",
-        "Where do you get Pay Employee Contributions?",
-        "What is the link to the Pay Employee Contributions?",
-        "How do you get Pay Employee Contributions?",
-        "How does Pay Employee Contributions works?",
-        "How can i get Pay Employee Contributions?",
-        "Who is the Pay Employee Contributions?",
-        "What is the Pay Employee Contributions?",
-        "Show me Pay Employee Contributions",
-        "How long did it take to have Pay Employee Contributions",
-        "How do i apply for Pay Employee Contributions?",
-        "Who is in Charge of Pay Employee Contributions?"
-      ],
-      "responses": [
-        "You can use this link https://www.rssb.rwhttps://etax.rra.gov.rw/ for more information"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
-}
+        {
+            "tag": "Head_of_ICT_Department ",
+            "patterns": [
+              "who is the Head of ICT Department?",
+              "What is the phone number of Head of ICT Department?" 
+            ],
+            "responses": [
+              "Head of ICT Department is Sabushimike Donatien.",
+              " phone number of Head of ICT Department: 0788629214"
+            ]
+        },
+        {
+            "tag": "Department",
+            "patterns": [
+              "what is the faculties that are in IPRC KIGALI COMPUS?",
+              " How many the department and give all of those in IPRC KIGALI COMPUS?",
+              "show me the faculties which are in IPRC KIGALI COMPUS?"
+            ],
+            "responses": [
+              "Department of ICT",
+              "Department of Creative Arts",
+              "Department of Civil Engineering",
+              "Department of Mechanical Engineering",
+              "Department of Mining Engineering",
+              "Department of Transport and Logistics",
+              "Department of Electrical and Electronics Engineering"
+            ]
+        },
+         { "tag": "links",
+           "patterns":[
+            "what can get the link of IPRC KIGALI COMPUS for more information about?",
+            "where can we get the link?",
+            "show me the link for announcement of IPRC KIGALI COMPUS?"
+            ],
+          "responses":[
+          " You can use this link https://www.iprckigali.rp.ac.rw/1/about-us for more information",
+          "You can use this link https://www.iprckigali.rp.ac.rw/ for more information"
+          ]
+         },
+        {
+            "tag": "Admission Requirements",
+            "patterns": [
+              "What are the admission requirements for IPRC Kigali?",
+              "Do I need to take an entrance exam to get into IPRC Kigali?",
+              "What documents do I need to provide for admission to IPRC Kigali?",
+              "Is there an age limit for admission to IPRC Kigali?",
+              "What is the deadline for submitting admission materials to IPRC Kigali?"
+            ],
+            "responses": [
+              "Admission to IPRC Kigali requires a high school diploma and passing an entrance exam.",
+              "You will need to provide a copy of your high school transcript and ID.",
+              "There is no age limit for admission to IPRC Kigali.",
+              "The deadline for submitting admission materials varies, please contact the school for more information."
+            ]
+        },
+        {
+            "tag": "Available Courses",
+            "patterns": [
+              "What courses are available at IPRC Kigali?",
+              "Do you offer any online courses at IPRC Kigali?",
+              "Can you provide information about the course curriculum for IPRC Kigali?",
+              "What is the duration of the courses offered at IPRC Kigali?",
+              "Is there any flexibility in the course schedule at IPRC Kigali?"
+            ],
+            "responses": [
+              "IPRC Kigali offers courses in ICT, Creative Arts, and Civil Engineering.",
+              "Yes, IPRC Kigali offers online courses for some programs.",
+              "Please contact the school for more information about"
+              ]
+             },
+
+               {
+              "tag": "Admission_Requirements",
+              "patterns": [
+              "What are the admission requirements for IPRC KIGALI COMPUS?",
+              "What documents do I need to apply to IPRC KIGALI COMPUS?",
+              "Can you tell me the admission process for IPRC KIGALI COMPUS?"
+               ],
+              "responses": [
+              "To apply to IPRC KIGALI COMPUS, you will need to provide a copy of your high school diploma, national ID, and a recent passport-sized photo.",
+              "You will also need to complete an application form and pay the admission fee.",
+              "You may also be required to take an entrance exam or attend an interview."
+               ]
+               },
+
+               {
+                "tag": "Courses_Offered",
+                "patterns": [
+                "What courses are offered at IPRC KIGALI COMPUS?",
+                "Can you list the programs available at IPRC KIGALI COMPUS?",
+                "What degrees can I earn at IPRC KIGALI COMPUS?"
+                 ],
+                   "responses": [
+                   "IPRC KIGALI COMPUS offers programs in ICT, Creative Arts, and Civil Engineering.",
+                   "You can earn a certificate, diploma, or a higher diploma in your chosen field.",
+                   "Please visit the IPRC KIGALI COMPUS website for a complete list of courses and programs."
+                    ]
+                     },
+
+                     {
+                     "tag": "Fee_Structure",
+                      "patterns": [
+                      "What is the fee structure for IPRC KIGALI COMPUS?",
+                      "How much does it cost to study at IPRC KIGALI COMPUS?",
+                     "Are there any scholarships available at IPRC KIGALI COMPUS?"
+                     ],
+                  "responses": [
+                  "The fee structure at IPRC KIGALI COMPUS varies depending on the course and program you choose.",
+                  "You can contact the college for a complete fee structure and information on scholarships.",
+                  "IPRC KIGALI COMPUS does offer scholarships and financial aid to eligible students."
+                  ]
+                  },
+
+                 {
+                   "tag": "Faculty_Members",
+                  "patterns": [
+                  "Who are the faculty members at IPRC KIGALI COMPUS?",
+                  "Can you give me a list of the teachers at IPRC KIGALI COMPUS?",
+                  "How can I contact a faculty member at IPRC KIGALI COMPUS?"
+                    ],
+                    "responses": [
+                    "The faculty members at IPRC KIGALI COMPUS are highly qualified and experienced professionals in their fields.",
+                    "You can find a list of faculty members on the IPRC KIGALI COMPUS website.",
+                    "You can contact a faculty member through the college's directory or by emailing the college directly."
+                    ]
+                     }
+
+                      ]
+
+                      }
